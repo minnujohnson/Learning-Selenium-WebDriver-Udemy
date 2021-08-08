@@ -1,0 +1,25 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.support.ui.Select;
+
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Minnuz\\selenium\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://www.cleartrip.com/");
+		
+		WebElement staticdropdown= driver.findElement(By.xpath("//div[@id='root']/div/div/div/div/div[2]/div/div[4]/div/div/select"));
+		Select option=new Select(staticdropdown);
+		
+			option.selectByIndex(2);
+			System.out.println(option.getFirstSelectedOption().getText());
+			
+		
+	}
+
+}

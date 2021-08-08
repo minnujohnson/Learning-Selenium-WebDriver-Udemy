@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+G:\eclipse_workspace_udemy\.metadata\.plugins\org.eclipse.jdt.core
+1644974171.index
+3630319533.index
+1955197414.index
+1663346658.index
+3526663632.index
+2783780921.index
+1039040925.index
+329216976.index
+3613946902.index
+3415862131.index
